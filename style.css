@@ -1,0 +1,22 @@
+ul {
+    display: inline;
+}
+li {
+    display: inline;
+}
+
+#left-nav {
+    float: left;
+}
+#right-nav {
+    float: right;
+}
+#logo-div {
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+#logo-img {
+    vertical-align: bottom;
+}
