@@ -8,24 +8,47 @@
 
     <body>
         <nav>
-            <ul id="left-nav">
-                <li>About</li>
-                <li>Store</li>
-            </ul>
-            <ul id="right-nav">
-                <li>Gmail</li>
-                <li>Images</li>
-                <li>Apps</li>
-                <li>Profile</li>
-            </ul>
+            <div class="container-div">
+                <div class="nav-div">
+                    <div>About</div>
+                    <div>Store</div>
+                </div>
+                <div></div>
+                <div class="nav-div">
+                    <div>Gmail</div>
+                    <div>Images</div>
+                    <div>Apps</div>
+                    <div>Profile</div>
+                </div>
+            </div>
         </nav>
         <main>
             <div id="logo-div">
                 <img id="logo-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             </div>
+            <form action="test.php" method="POST">
+                <div id="searchbar-div">
+                    <input type="text" size="40" required autofocus>
+                </div>
+            </form>
+            <div id="buttons-div">
+                <button type="submit">Google Search</button>
+                <button type="submit">I'm Feeling Lucky</button>
+            </div>
         </main>
-        <footer>
-
+        <footer class="footer">
+            <div class="container-div">
+                <div class="nav-div">
+                    <div>Advertising</div>
+                    <div>Business</div>
+                </div>
+                <div></div>
+                <div class="nav-div">
+                    <div>Privacy</div>
+                    <div>Terms</div>
+                    <div>Settings</div>
+                </div>
+            </div>
         </footer>
     </body>
 
